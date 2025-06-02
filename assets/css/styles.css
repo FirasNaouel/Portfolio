@@ -131,10 +131,16 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #121212; 
     transition: 0.5s;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  }
+
+  .l-header {
+    background-color: #121212;
   }
 }
+
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -333,6 +339,7 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  background-color: #1c1c1c;
 }
 .contact__button {
   display: block;
